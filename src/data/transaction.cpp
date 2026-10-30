@@ -2,6 +2,8 @@
 
 #include <utility>
 
+namespace bankbook::data {
+
 // transaction class implementation
 std::uint64_t transaction::id() const
 {
@@ -110,3 +112,5 @@ void transaction::amount(std::int64_t cents)
 {
     amount_ = cents;
 }
+
+}; // namespace bankbook::dat end

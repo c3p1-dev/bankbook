@@ -5,6 +5,8 @@
 #include <optional>
 #include <string>
 
+namespace bankbook::data {
+
 class category
 {
 public:
@@ -30,6 +32,8 @@ private:
     std::string name_;
     std::optional<std::string> description_;
 };
+
+}; // namespace bankbook::data end
 
 #endif  // CATEGORY_H
 

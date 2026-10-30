@@ -5,6 +5,8 @@
 #include <string>
 #include <string_view>
 
+namespace bankbook {
+
 // configuration file parser class
 class config
 {
@@ -19,5 +21,7 @@ public:
 private:
     std::map<std::string, std::string> data_;
 };
+
+}; // namespace bankbook end
 
 #endif  // CONFIG_H

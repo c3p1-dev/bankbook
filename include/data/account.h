@@ -6,6 +6,8 @@
 #include <optional>
 #include <chrono>
 
+namespace bankbook::data {
+
 class account
 {
 public:
@@ -53,6 +55,8 @@ private:
     std::optional<std::string> url_;
     std::optional<std::chrono::system_clock::time_point> locked_at_;
 };
+
+}; // namespace bankbook::data end
 
 #endif // ACCOUNT_H
 

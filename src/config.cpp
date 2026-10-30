@@ -3,6 +3,8 @@
 #include <filesystem>
 #include <fstream>
 
+namespace bankbook {
+
 // internal functions
 namespace
 {
@@ -86,3 +88,5 @@ std::map<std::string, std::string> config::get_all() const
 {
     return data_;
 }
+
+}; // namespace bankbook end

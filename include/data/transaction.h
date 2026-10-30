@@ -6,6 +6,8 @@
 #include <chrono>
 #include <optional>
 
+namespace bankbook::data {
+
 class transaction
 {
 public:
@@ -59,6 +61,8 @@ private:
     bool is_reconciled_{false};
     std::int64_t amount_{0};
 };
+
+}; // namespace bankbook::data end
 
 #endif  // TRANSACTION_H
 
