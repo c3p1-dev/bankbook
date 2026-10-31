@@ -23,8 +23,12 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.cpp
 
 clean:
 	rm -rf $(OBJDIR) $(OUT)
+	rm -rf docs
+
+docs:
+	doxygen Doxyfile
 
 run: $(OUT)
 	./$(OUT)
 
-.PHONY: all clean run
+.PHONY: all clean run docs

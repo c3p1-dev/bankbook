@@ -1,7 +1,12 @@
 # Build artifacts
+build/
 *.o
 *.d
 bankbook
+
+
+# Doxygen auto doc
+docs/
 
 # Databases
 *.db

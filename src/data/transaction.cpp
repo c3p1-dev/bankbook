@@ -113,4 +113,4 @@ void transaction::amount(std::int64_t cents)
     amount_ = cents;
 }
 
-}; // namespace bankbook::dat end
+} // namespace bankbook::data end

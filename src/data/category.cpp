@@ -50,4 +50,4 @@ void category::description(std::optional<std::string> category_description)
     description_ = std::move(category_description);
 }
 
-}; // namespace bankbook::data end
+} // namespace bankbook::data end

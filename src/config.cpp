@@ -89,4 +89,4 @@ std::map<std::string, std::string> config::get_all() const
     return data_;
 }
 
-}; // namespace bankbook end
+} // namespace bankbook end

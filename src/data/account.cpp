@@ -95,4 +95,4 @@ void account::locked_at(std::optional<std::chrono::system_clock::time_point> loc
     locked_at_ = lock_time;
 }
 
-}; // namespace bankbook::data end
+} // namespace bankbook::data end
